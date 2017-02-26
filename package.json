@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-stcherenkov",
+  "version": "1.0.0",
+  "description": "Personal preferred eslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stcherenkov/eslint-config-stcherenkov.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Stanislav Cherenkov <dvlp@stnslv.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stcherenkov/eslint-config-stcherenkov/issues"
+  },
+  "homepage": "https://github.com/stcherenkov/eslint-config-stcherenkov#readme"
+}
