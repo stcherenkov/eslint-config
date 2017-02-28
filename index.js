@@ -5,9 +5,8 @@ module.exports = {
         './rules/strict-mode',
         './rules/variables',
         './rules/node-js-and-common-js',
-        // './rules/stylistic',
-        // './rules/es6',
-        // './rules/react',
+        './rules/stylistic',
+        './rules/es6',
     ].map(require.resolve),
     parserOptions: {
         ecmaVersion: 2017,
