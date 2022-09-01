@@ -1,6 +1,6 @@
 {
   "name": "@stcherenkov/eslint-config",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Stanislav Cherenkov prefers these rules, deal with it",
   "main": "index.js",
   "scripts": {
