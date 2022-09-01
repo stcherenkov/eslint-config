@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stcherenkov/eslint-config-stcherenkov.git"
+    "url": "git+https://github.com/stcherenkov/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -17,12 +17,12 @@
     "javascript",
     "styleguide"
   ],
-  "author": "Stanislav Cherenkov <dvlp@stnslv.ch>",
+  "author": "Stanislav Cherenkov <stanislav.cherenkov@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/stcherenkov/eslint-config-stcherenkov/issues"
+    "url": "https://github.com/stcherenkov/eslint-config/issues"
   },
-  "homepage": "https://github.com/stcherenkov/eslint-config-stcherenkov#readme",
+  "homepage": "https://github.com/stcherenkov/eslint-config#readme",
   "devDependencies": {
     "eslint-plugin-import": "^2.26.0"
   },
