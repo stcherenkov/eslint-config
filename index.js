@@ -1,20 +1,20 @@
 module.exports = {
-    extends: [
-        './rules/possible-errors',
-        './rules/best-practices',
-        './rules/strict-mode',
-        './rules/variables',
-        './rules/node-js-and-common-js',
-        './rules/stylistic',
-        './rules/es6',
-    ].map(require.resolve),
-    parserOptions: {
-        ecmaVersion: 2017,
-        sourceType: 'module',
-        ecmaFeatures: {
-            impliedStrict: true,
-            experimentalObjectRestSpread: true,
-        },
-    },
-    rules: {}
+  rules: {
+    'arrow-parens': ['warn', 'always'],
+    // improves git experience – one does not mark lines as changed by adding trailing commas
+    'comma-dangle': ['warn', {
+      arrays: 'always-multiline',
+      objects: 'always-multiline',
+      imports: 'always-multiline',
+      exports: 'always-multiline',
+      functions: 'always-multiline',
+    }],
+    'object-curly-spacing': ['warn', 'always'],
+    'quotes': ['warn', 'single'],
+    'semi': ['warn', 'never'],
+
+    'import/order': ['warn', {
+      groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
+    }],
+  },
 }

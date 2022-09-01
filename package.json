@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-stcherenkov",
+  "name": "@stcherenkov/eslint-config",
   "version": "1.1.0",
-  "description": "Personal preferred eslint configuration",
+  "description": "Stanislav Cherenkov prefers these rules, deal with it",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/stcherenkov/eslint-config-stcherenkov/issues"
   },
-  "homepage": "https://github.com/stcherenkov/eslint-config-stcherenkov#readme"
+  "homepage": "https://github.com/stcherenkov/eslint-config-stcherenkov#readme",
+  "devDependencies": {
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "peerDependencies": {
+    "eslint-plugin-import": "^2.26.0"
+  }
 }
