@@ -9,6 +9,7 @@ module.exports = {
       exports: 'always-multiline',
       functions: 'always-multiline',
     }],
+    'eol-last': ['warn', 'always'],
     'object-curly-spacing': ['warn', 'always'],
     'quotes': ['warn', 'single'],
     'semi': ['warn', 'never'],
