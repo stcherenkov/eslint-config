@@ -11,12 +11,27 @@ module.exports = {
     }],
     'eol-last': ['warn', 'always'],
     'indent': ['warn', 2],
+    'multiline-ternary': ['warn', 'always-multiline'],
+    'no-console': ['error', {
+      allow: ['warn', 'error'],
+    }],
     'object-curly-spacing': ['warn', 'always'],
+    'operator-linebreak': ['warn', 'before'],
     'quotes': ['warn', 'single'],
     'semi': ['warn', 'never'],
 
+    'eslint-comments/require-description': ['error'],
+
     'import/order': ['warn', {
       groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
+    }],
+
+    'react/jsx-curly-spacing': ['warn', {
+      when: 'never',
+    }],
+    'react/jsx-indent': ['warn', 2, {
+      checkAttributes: true,
+      indentLogicalExpressions: true,
     }],
   },
 }
