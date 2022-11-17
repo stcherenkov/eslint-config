@@ -33,5 +33,12 @@ module.exports = {
       checkAttributes: true,
       indentLogicalExpressions: true,
     }],
+
+    '@typescript-eslint/naming-convention': ['warn',
+      {
+        selector: 'enumMember',
+        format: ['PascalCase'],
+      },
+    ],
   },
 }
