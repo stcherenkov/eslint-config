@@ -28,6 +28,7 @@ module.exports = {
 
     'react/jsx-curly-spacing': ['warn', {
       when: 'never',
+      children: true,
     }],
     'react/jsx-indent': ['warn', 2, {
       checkAttributes: true,
