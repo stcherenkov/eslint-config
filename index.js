@@ -16,6 +16,13 @@ module.exports = {
     'no-console': ['error', {
       allow: ['warn', 'error'],
     }],
+    'object-curly-newline': ['warn', {
+      'ImportDeclaration': {
+        multiline: true,
+        minProperties: 4,
+      },
+      'ExportDeclaration': 'always',
+    }],
     'object-curly-spacing': ['warn', 'always'],
     'operator-linebreak': ['warn', 'before'],
     'quotes': ['warn', 'single'],
