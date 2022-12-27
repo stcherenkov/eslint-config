@@ -1,6 +1,7 @@
 module.exports = {
   rules: {
     'arrow-parens': ['warn', 'always'],
+    'arrow-spacing': ['warn', { before: true, after: true }],
     // improves git experience – one does not mark lines as changed by adding trailing commas
     'comma-dangle': ['warn', {
       arrays: 'always-multiline',
