@@ -24,7 +24,8 @@ module.exports = {
     'eslint-comments/require-description': ['error'],
 
     'import/order': ['warn', {
-      groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
+      'groups': ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+      'newlines-between': 'always',
     }],
 
     'react/jsx-curly-spacing': ['warn', {
